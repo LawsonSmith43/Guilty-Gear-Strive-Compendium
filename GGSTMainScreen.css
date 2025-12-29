@@ -1,0 +1,223 @@
+h1.Title {
+    color: rgb(255, 255, 255);
+    background-color: #d90909;
+    display: flex;
+    font-weight: bolder;
+    font-size: 35px; 
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: -10px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+
+
+h1.CharacterName
+{
+    display: flex;
+    margin-top: 70px;
+    justify-content: left;
+    flex-direction: row;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    border: 1px solid red;
+    width: 500px;
+}
+
+body.MainContent
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.List-Image
+{
+    scroll-behavior: smooth;
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid white;
+    gap: 25px;
+     background-color: rgba(0, 0, 0, 0.8);
+     
+}
+
+.Charactername-Image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    width: 500px;
+    height: 700px;
+
+}
+
+.Charactername-JackoImage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    width: 500px;
+    height: 700px;
+
+}
+
+.Charactername-ImageHCImage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    width: 500px;
+    height: 700px;
+
+}
+
+.Charactername-ImageVNMimage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    width: 500px;
+    height: 700px;
+}
+
+div.Nametemplate
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid green;
+    height: 700px;
+    
+}
+
+.Charactername-Image img
+{
+    display: flex;
+    
+    width: 430px;
+    border: 1px solid yellow;
+    
+}
+
+.Charactername-JackoImage img
+{
+    display: flex;
+    
+    width: 350px;
+    border: 1px solid yellow;
+    
+}
+
+.Charactername-ImageHCImage img
+{
+    display: flex;
+    
+    width: 280px;
+    border: 1px solid yellow;
+}
+
+.Charactername-ImageVNMimage img
+{
+    display: flex;
+    
+    width: 400px;
+    border: 1px solid yellow;
+}
+
+
+.CharacterList
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    gap: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    list-style: none;
+    border: 1px solid red;
+    width: 200px;
+  /*  transition: transform 1s ease, 1s ease; */
+    cursor: pointer;
+}
+
+
+
+.CharacterList li:hover
+{
+   transform: scale(1.1);
+}
+
+.CharacterList a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.CharacterList a:hover
+{
+    transform: translate(6px);
+    color: #d90909;
+}
+
+.BreakLine
+{
+    display: flex;
+    width: 100%;
+   
+
+}
+
+div.MoveList
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.Charactertext
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid orange;
+    width: 650px;
+   
+    background: opa;
+}
+
+.NotationK
+{
+    color: rgb(100, 185, 255);
+}
+
+.NotationHS
+{
+    color: red;
+}
+
+.NotationP
+{
+    color: pink;
+}
+
+.NotationS
+{
+    color: green;
+}

@@ -22,7 +22,7 @@ section.OP img {
     display: flex;
     
     width: 65px;
-    transition: transform 0.2 ease, 0.2s ease;
+    transition: transform 1s ease, 1s ease;
     cursor: pointer;
 }
 
